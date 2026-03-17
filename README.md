@@ -6,7 +6,7 @@
 
 I tried a couple approaches to make an interesting Game of Life submission. 
 
-One, I would draw layers of generations thus making a comet tail of history. I anticipated that it was already done. But usually enough time passes that a new approach can build on evolving processes. The solution was [posted March 2, 2026](https://news.ycombinator.com/item?id=47197218). Too fresh to freshen up. Add insult to injury: top comment reads, "This is the kind of visualisation that obvious in retrospect, but I don't think anybody's done this before. Very nice."
+One, I would draw layers of generations thus making a comet tail of history. I anticipated that it was already done. But usually enough time passes that a new approach can build on evolving processes. The solution was [posted March 2, 2026](https://news.ycombinator.com/item?id=47197218). Too fresh to freshen up. 
 
 Idea two, I would make automata blackholes... or interstellar objects. Objects being the keyword. My code approach made rule making too difficult. I scrapped it and started fresh using Dan Schiffman's [Coding Train video on the Game of Life](https://www.youtube.com/watch?v=FWSR_7kZuYg) as inspiration and code base. The idea was to start with what works and scale it in a way that I could easily try new rules. 
 
