@@ -10,9 +10,9 @@ One, I would draw layers of generations thus making a comet tail of history. I a
 
 Idea two, I would make automata blackholes... or interstellar objects. Objects being the keyword. My code approach made rule making too difficult. I scrapped it and started fresh using Dan Schiffman's [Coding Train video on the Game of Life](https://www.youtube.com/watch?v=FWSR_7kZuYg) as inspiration and code base. The idea was to start with what works and scale it in a way that I could easily try new rules. 
 
-During this attempt, while just preparing the file structure to try more and more rules, my first rule change resulted in a stable'ish system with zig-zagging gliders and variations of pulsars. Still intending to try other rules, I was distracted into fine tuning Folder B rules. As it is, every 30th frame, the birthrate for cells goes up. More or less frequent and the sweet spot is lost. Then cell size, grid size, even adjusting a weighted random result for the cell state all factor in to the success of the run. 
+During this attempt, while just preparing the file structure to try more and more rules, my first rule change resulted in a stable'ish system with zig-zagging gliders and variations of pulsars. I intended to try other rule sets however I was distracted by fine-tuning Folder B rules. The sweet spot appears to be increasing the birthrate every 30 frames. Cell and grid size and weighing the randomized outcome of the first generation also contribute to the overall success of the run. 
 
-There are more layers to this that would be fun to explore. The rule change in Folder B is small yet the results look dramatic. More granular tuning would be great but a new system of counting neighbors would be needed. 
+There are more layers to this that would be fun to explore. The rule change in Folder B is small yet the results look dramatic. More granular tuning would be great but a new system of counting neighbors would be needed. First, though, I would fix the ever-growing load of arrays the program generates. 
 
 ![PulsarOfSomeSort](https://github.com/user-attachments/assets/c7fb7ec0-a595-49d6-ad92-ea5218b491bd)
 
